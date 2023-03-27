@@ -1,11 +1,197 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 
-body{
-    font-family: 'Maven Pro', sans-serif;
-    background-color: black;
-    color : white;
+*{
+    margin: 0;
 }
 
-a{
-    color: aliceblue;
+body{
+    font-family: 'Maven Pro', sans-serif;
+    background-color: #c0d6c0;
+    color : rgb(6, 49, 16);
+}
+
+p {
+    font-size: 20px;
+    margin-top: 1%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+h3{
+    padding-right: 40%;
+    padding-left: 40%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.fransylva{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.afrans{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.astory{
+    text-align: center;
+}
+
+.storyboard{
+    background-color: #adc4ad;
+}
+
+.blocmocap img {
+    width: 20%;
+    height: auto;
+}
+
+.imgcapteur{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.blocmocap a{
+    width: 20%;
+    height: auto;
+}
+
+#story{
+    text-decoration: none;
+    background-color: rgb(6, 49, 16);
+    border: none;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#story:hover{
+    transform: scale(1.2);
+}
+
+.mocap{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.modelisation{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modelisation img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.montage{
+    padding-bottom: 5%;
+}
+
+.montageimg {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.montage img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 3%;
+}
+.anim{
+    background-color: #adc4ad;
+}
+
+.resultat{
+    background-color: #adc4ad;
+}
+
+.equipeimg{
+    text-align: center;
+}
+
+.equipeimg img{
+    width: 40%;
+    height: auto;
+}
+
+#btn {
+    text-decoration: none;
+    background-color: rgb(6, 49, 16);
+    border: none;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#btn:hover{
+    transform: scale(1.2);
+}
+
+
+.nom{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.lien{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lien img{
+    width: 25%;
+    height: auto;
+
+}
+
+.lien a {
+    text-align: center;
+}
+
+#imglkdin{
+    text-align: center;
+    margin-top: 3%;
+}
+
+#imglkdin img{
+    width: 25%;
+    height: auto;
 }
